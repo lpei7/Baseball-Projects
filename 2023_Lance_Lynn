@@ -1,0 +1,8 @@
+library (tidyverse)
+setwd ("~/Desktop/Main/Lynn")
+league <- read_csv ("Savant_stats.csv")
+
+
+#Download my baseball savant custom leaderboards and player metrics for 2023
+View (league)
+sum (is.na(league))
